@@ -33,7 +33,7 @@ function onSelectProject(projId) {
 <p>${proj.description}</p>
 <ul class="list-inline">
   <li>Publish Date:${proj.publishedAt}</li>
-  <li>url:${proj.url}</li>
+  <li>url:<a href="${proj.url}" target="blank"> ${proj.name}</a></li>
 </ul>
 <button class="btn btn-primary" data-dismiss="modal" type="button">
   <i class="fa fa-times"></i>
