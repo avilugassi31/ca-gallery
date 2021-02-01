@@ -39,7 +39,7 @@ function _createProj(name) {
     title: makeLorem(2),
     url: '',
     imgUrl: name,
-    publishedAt: Date.now(),
+    publishedAt: new Date(),
     description: makeLorem(20),
   };
 }
