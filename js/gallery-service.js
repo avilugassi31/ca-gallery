@@ -2,7 +2,7 @@ var gProjects = [
   {
     id: makeId(),
     name: 'MineSweeper',
-    title: 'Bomb Me',
+    title: 'Lets Find Some Mines',
     url: 'https://avilugassi31.github.io/sprint1-final/',
     imgUrl: 'MineSweeper',
     publishedAt: Date.now(),
